@@ -1,0 +1,51 @@
+body{
+	color : black;
+	font-size: 30px;
+}
+
+.row:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.row { display: inline-block; }
+/* start commented backslash hack \*/
+* html .row { height: 1%; }
+.row { display: block; }
+/* close commented backslash hack */
+
+.header{
+	height: 50px;
+	margin-bottom: 10px;
+}
+
+.inner-header{
+	background: white;
+	height: 50px;
+}
+
+.content{
+	width: 100%;
+	float: left;
+}
+
+.inner-content{
+	background: white;
+	min-height: 500px;
+
+
+}
+
+.footer{
+	background: white;
+	height: 200px;
+	margin-top: 10px;
+}
+
+.righting{
+	float: right;
+	margin: 7px 0 7px 7px;
+}
